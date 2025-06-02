@@ -2,8 +2,107 @@
 <html lang="en">
 <head>
      <title>Assignment 6</title>
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+        body {
+      font-family: "Ancizar Serif", serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+        header{
+            text-align: center;
+            background-color:#202060 ;
+            color:white;
+           padding: 20px;
+           
+        }
+        #container{
+            margin: 20px auto;
+            max-width:900px ;
+            border: none;
+         box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+         border-radius: 20px;
+        padding: 20px;
+        
+
+        }
+        #container:hover{
+           transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .container2{
+           
+             text-align: center;
+      margin: 20px 0;
+        }
+        .container2 img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+    .highlight{
+        background-color: #e3f2fd;
+      padding: 10px;
+      border-left: 4px solid #2196f3;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+    footer{
+        background-color: #202060;
+        text-align: center;
+        padding: 20px;
+        color: white;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px;
+    }
+        ul{
+            font-size: 20px;
+        }
+       
+        
+     </style>
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+    <h1>Welcome to Pune</h1>
+     <p>The Cultural Capital of Maharashtra</p>
+     </header>
+    <div id="container">
+       <h2>About Pune</h2>
+       <p>Pune is a vibrant city located in the western Indian state of Maharashtra. Known for its rich history, educational institutions, pleasant climate, and growing IT industry, Pune blends modernity with tradition effortlessly.</p> 
+
+       <div class="container2">
+        <img src="sanivarwade-img.jpg"/>
+          <p><em>Shaniwar Wada – a historical fort in Pune</em></p>
+       </div>
+        <h2>Top Attractions</h2>
+    <ul>
+      <li>Shaniwar Wada</li>
+      <li>Sinhagad Fort</li>
+      <li>Dagdusheth Halwai Ganpati Temple</li>
+      <li>Raja Dinkar Kelkar Museum</li>
+      <li>Aga Khan Palace</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Did you know?</strong> Pune is home to the prestigious Savitribai Phule Pune University and is considered the "Oxford of the East".
+    </div>
+
+    <h2>Best Time to Visit</h2>
+    <p>The best time to visit Pune is from October to February when the weather is cool and ideal for sightseeing.</p>
+  </div>
+
+<footer>
+    <p>&copy; 2025 Discover Pune. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
